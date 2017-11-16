@@ -1,20 +1,43 @@
-//import a stylesheet here//
 import React from 'react';
 import ReactDom from 'react-dom';
-import App from './component/app';
-import {Provider} from 'react-redux';
-import appCreateStore from './lib/app-create-store';
+import {BrowserRouter, Route} from 'react-router-dom';
+import Navbar from './component/navbar';
+import ContactContainer from './component/contact-container';
 
-let store = appCreateStore();
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    //we could think about putting state in here like
+    // this.state = { something}
+    this.getApp = this.getApp.bind(this);
+  }
 
-class AppContainer extends React.Component {
+  componentDidMount() {
+    console.log('Checking that state mounted. Here is the state: ', this.state);
+  }
+
+//Possibly could delete this: Keeping in case I think of some stateful stuff to manage
+  getApp() {
+    return {
+      state: this.state,
+      setState: this.setState.bind(this),
+    };
+  }
+
   render() {
     return (
-      <Provider store={store}>
-        <App/>
-      </Provider>
+      <div className="app">
+        <BrowserRouter>
+          <section>
+            <Navbar />
+            <main>
+              <Route exact path="/" component={() => <ContactContainer/>} />
+            </main>
+          </section>
+        </BrowserRouter>
+      </div>
     );
   }
 }
 
-ReactDom.render(<AppContainer/>, document.getElementById('root'));
+ReactDom.render(<App/>, document.getElementById('root'));
