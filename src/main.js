@@ -6,9 +6,8 @@ import ContactContainer from './component/contact-container';
 import ResumeContainer from './component/resume-container';
 import ProjectsContainer from './component/projects-container';
 import AboutContainer from './component/about-container';
-import ValueContainer from './component/values-container';
+import ValuesContainer from './component/values-container';
 import HomeContainer from './component/home-container';
-import SkillsContainer from './component/skills-container';
 
 class App extends React.Component {
   constructor(props) {
@@ -44,7 +43,6 @@ class App extends React.Component {
               <Route exact path="/resume" component={() => <ResumeContainer/>} />
               <Route exact path="/values" component={() => <ValuesContainer/>} />
             </main>
-            <SkillsContainer />
           </section>
         </BrowserRouter>
       </div>
