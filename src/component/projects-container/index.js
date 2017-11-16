@@ -15,15 +15,16 @@ class ProjectsContainer extends React.Component {
       .then(results => {
         return results.json();
     //referencing this website: https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2//
-      })
-      this.setState({repos});
-      console.log('state', this.state.repos);
+      });
+    this.setState({repos});
+    console.log('state', this.state.repos);
   }
 
   render() {
     return (
       <div className='repos'>
         {this.state.repos}
+        <p>Some dummy text so something appears!</p>
       </div>
     );
   }

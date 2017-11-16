@@ -8,10 +8,11 @@ class Navbar extends React.Component {
         <div className="header">
           <ul>
             <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
             <li><Link to="/resume">Resume</Link></li>
             <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/testm">Testimonials</Link></li>
-            <li><Link to="contact">Contact Me</Link></li>
+            <li><Link to="/values">Values</Link></li>
+            <li><Link to="/contact">Contact Me</Link></li>
           </ul>
         </div>
       </header>
