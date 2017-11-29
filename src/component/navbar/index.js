@@ -1,3 +1,4 @@
+import '../../style/lib/_navbar.scss';
 import React from 'react';
 import {Link} from 'react-router-dom';
 
