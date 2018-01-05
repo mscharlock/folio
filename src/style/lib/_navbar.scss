@@ -1,6 +1,24 @@
+@import "../vars";
+
 header {
-  background-color: grey;
+  height: 100%;
+  background-color: $color-pink;
+  width: 15em;
+  position: fixed;
 }
+
+span {
+  display: inline-block;
+  float: left;
+  padding: 5px;
+}
+
+// header ul li {
+//   display: inline-block;
+//   float: right;
+// }
+
+
 
 //NO IDEA WHY THIS ISN'T WORKING - IT"S KINDA PISSING ME OFF
 // li {

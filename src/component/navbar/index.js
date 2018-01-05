@@ -7,13 +7,13 @@ class Navbar extends React.Component {
     return (
       <header>
         <div className="header">
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/values">Values</Link></li>
-            <li><Link to="/contact">Contact Me</Link></li>
+          <ul id="navbar">
+            <li><Link to="/"><span>Home</span></Link></li>
+            <li><Link to="/about"><span>About</span></Link></li>
+            <li><Link to="/resume"><span>Resume</span></Link></li>
+            <li><Link to="/projects"><span>Projects</span></Link></li>
+            <li><Link to="/values"><span>Values</span></Link></li>
+            <li><Link to="/contact"><span>Contact Me</span></Link></li>
           </ul>
         </div>
       </header>
