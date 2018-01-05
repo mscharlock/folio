@@ -1,10 +1,11 @@
 import React from 'react';
+import '../../style/lib/_heroimg.scss';
 
 class HeroImage extends React.Component {
   render() {
     return (
       <div className="img-container">
-        //I will put images in here depending on the content
+        <img id="hero" src="../../../imgs/mevol.jpg"/>
       </div>
     );
   }
