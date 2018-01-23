@@ -1,0 +1,15 @@
+@import 'src/style/_vars.scss';
+
+.skills-container {
+  text-align: center;
+}
+
+
+p {
+  background-color: $color-orange;
+  display: inline;
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  padding: 40px;
+}

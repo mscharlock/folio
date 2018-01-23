@@ -1,4 +1,4 @@
-import '../../style/lib/_navbar.scss';
+import './_navbar.scss';
 import React from 'react';
 import {Link} from 'react-router-dom';
 
@@ -8,7 +8,8 @@ class Navbar extends React.Component {
       <header>
         <div className="header">
           <ul id="navbar">
-            <li><Link to="/"><span>Home</span></Link></li>
+            <li><h1>Michelle Scharlock</h1></li>
+            <li><Link to="/"><span id="tiptop">Home</span></Link></li>
             <li><Link to="/about"><span>About</span></Link></li>
             <li><Link to="/resume"><span>Resume</span></Link></li>
             <li><Link to="/projects"><span>Projects</span></Link></li>

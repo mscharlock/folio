@@ -1,11 +1,15 @@
 body {
   font-family: 'Quicksand', sans-serif;
   color: blue;
-}
-
-title {
-  font-family: 'Vidaloka', serif;
-  font-size: 3em;
   margin: 0 auto;
+  display: inline-block;
+  background-image: url('/imgs/water.jpg');
+  background-size: cover;
   float: left;
 }
+
+// title {
+//   font-family: 'Vidaloka', serif;
+//   font-size: 3em;
+//   margin: 0 auto;
+// }
