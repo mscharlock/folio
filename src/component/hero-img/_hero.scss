@@ -1,11 +1,18 @@
-
 .img-container {
-  height: 17em;
-  width: 100%;
-  background-image: url('./orange.jpg');
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
 
-// #hero {
-//   height: 960;
-//   width: 40 em;
-//   margin: 0 auto;
-// }
+img {
+  z-index:-99;
+}
+
+#title {
+  z-index: 9999;
+  color: white;
+  position: absolute;
+  font-size: 3em;
+  font-family: 'Vidaloka', serif;
+}
