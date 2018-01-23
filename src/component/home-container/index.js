@@ -8,7 +8,6 @@ class HomeContainer extends React.Component {
     return (
       <div className="home-container">
         <HeroImage/>
-        <ContactContainer/>
         <SkillsContainer/>
       </div>
     );
