@@ -1,4 +1,4 @@
-import '../../style/lib/_skills.scss';
+import './_skills.scss';
 import React from 'react';
 
 class SkillsContainer extends React.Component {

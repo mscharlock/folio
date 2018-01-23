@@ -4,4 +4,7 @@
 @import './_base';
 
 //Importing Components
-@import './lib/_navbar';
+@import 'src/component/hero-img/_hero';
+@import 'src/component/navbar/_navbar.scss';
+@import 'src/component/contact-container/_contact';
+@import 'src/component/skills-container/_skills';

@@ -1,0 +1,18 @@
+.img-container {
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+img {
+  z-index:-99;
+}
+
+#title {
+  z-index: 9999;
+  color: white;
+  position: absolute;
+  font-size: 3em;
+  font-family: 'Vidaloka', serif;
+}

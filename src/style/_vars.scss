@@ -2,3 +2,26 @@ $font-primary: 'Quicksand', sans-serif;
 $color-black: 'black';
 $color-orange: #ff8d19;
 $color-pink: #f60e5d;
+
+$column:
+
+
+//media query stuff:
+// xl: 87.5em; // 4k and hi-res desktop
+// lg: 60em; // 1080 and hi-res laptops
+// med: 40em; // hi-res tablets and low-res laptops
+// sm: 28em: // mobile and low-res tablets
+// xs: 20em; // mobile only
+
+//https://medium.com/@jkohne/responsive-design-and-css-columns-using-sass-15b477a4ff83//
+//column ideas//
+// .columns {
+//     @include columns(1, sm/2);
+//     @include responsive( med ) {
+//         @include columns(2, sm/2);
+//     };
+//
+//     @include responsive( lg ) {
+//         @include columns(3, med/2);
+//     };
+// }

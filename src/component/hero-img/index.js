@@ -1,10 +1,12 @@
 import React from 'react';
+import './_hero.scss';
 
 class HeroImage extends React.Component {
   render() {
     return (
       <div className="img-container">
-        //I will put images in here depending on the content
+        <h3 id="title">Full Stack JavaScript Developer</h3>
+        <img src="src/imgs/orange.jpg"/>
       </div>
     );
   }
