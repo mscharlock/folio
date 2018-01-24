@@ -1,12 +1,16 @@
 .img-container {
   margin: 0 auto;
-  height: 500px;
+  height: 410px;
   width: 500px;
   position: relative;
 }
 
 img {
-  z-index:-99;
+  height: 400px;
+  width: auto;
+  background-color: yellow;
+  z-index: 999;
+  margin: 0 12em;
 }
 
 #title {

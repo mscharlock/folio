@@ -5,8 +5,7 @@ class HeroImage extends React.Component {
   render() {
     return (
       <div className="img-container">
-        <h3 id="title">Full Stack JavaScript Developer</h3>
-        <img src="src/imgs/orange.jpg"/>
+        <img src="../../src/imgs/me.jpg"/>
       </div>
     );
   }

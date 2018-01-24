@@ -5,14 +5,24 @@
   padding-left: 19em;
 }
 
+h2 {
+  font-size: 3em;
+  font-family: 'Vidaloka', serif;
+  text-align: center;
+  padding-top: 2em;
+  margin-bottom: 20px;
+}
 
 p {
-  background-color: $color-orange;
-  display: inline;
-  height: 150px;
-  width: 250px;
-  margin: 50px;
-  padding-left: 50px;
-  text-align: center;
-  z-index: 99999;
+  padding: 50px;
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.box {
+  background-color: orange;
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+  float: left;
 }
